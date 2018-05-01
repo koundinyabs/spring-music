@@ -5,5 +5,3 @@ applications:
   path: build/libs/spring-music.jar
   instances: 2
   buildpack: java_buildpack_offline
-  services:
-  - spring-music-db
