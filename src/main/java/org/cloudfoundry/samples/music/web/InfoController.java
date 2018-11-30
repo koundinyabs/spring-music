@@ -27,7 +27,7 @@ public class InfoController {
     private static Color color;
 
     @Autowired
-    public InfoController(@Value("${demo.color:blue}")String color, Environment springEnvironment) {
+    public InfoController(@Value("${demo.color:green}")String color, Environment springEnvironment) {
         this.springEnvironment = springEnvironment;
         this.color = new Color(color);
     }
