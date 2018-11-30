@@ -24,11 +24,12 @@ steps:
   inputs:
     SourceFolder: '$(system.defaultworkingdirectory)'
 
-    Contents:
-      'build/libs/spring-music.jar'
-      'manifest.yml'
+    Contents: |
+     build/libs/spring-music.jar
+     manifest.yml
 
     TargetFolder: '$(build.artifactstagingdirectory)'
+
 
 
 - task: PublishBuildArtifacts@1
