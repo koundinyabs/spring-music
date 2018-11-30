@@ -24,7 +24,9 @@ steps:
   inputs:
     SourceFolder: '$(system.defaultworkingdirectory)'
 
-    Contents: 'build/libs/spring-music.jar'
+    Contents:
+      'build/libs/spring-music.jar'
+      'manifest.yml'
 
     TargetFolder: '$(build.artifactstagingdirectory)'
 
